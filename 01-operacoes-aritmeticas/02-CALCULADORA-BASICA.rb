@@ -16,7 +16,7 @@ puts "Subtração = #{num1 - num2}"
 
 puts "Multiplicação = #{num1 * num2}"
 
-puts "Divisão = #{num1 / num2}"
+puts "Divisão = #{num1.to_f / num2.to_f}"
 
 puts "Resto = #{num1 % num2}"
 
