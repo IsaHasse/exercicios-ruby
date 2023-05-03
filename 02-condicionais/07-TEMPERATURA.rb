@@ -2,6 +2,8 @@ print "Informe a escala de temperatura (C/F): "
 
 escala = gets.chomp
 
+escala = escala.to_s
+
 print "Informe a temperatura: "
 
 temp = gets.chomp
