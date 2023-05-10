@@ -2,6 +2,7 @@ print 'Quantos números serão informados? '
 n = gets.chomp.to_i
 
 numbers = []
+puts
 
 for i in 1..n
   print "Digite o #{i}º número: "
@@ -9,7 +10,7 @@ for i in 1..n
 end
 
 puts
-print 'NÚMEROS NEGATIVOS:'
+puts 'NÚMEROS NEGATIVOS:'
 
 for i in 1..n
   puts "#{numbers[i]}" if numbers[i].negative?
